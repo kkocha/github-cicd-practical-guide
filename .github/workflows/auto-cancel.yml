@@ -7,4 +7,4 @@ jobs:
   job-name:
     runs-on: ubuntu-latest
     steps:
-      - run: sleep 300
+      - run: sleep 10
