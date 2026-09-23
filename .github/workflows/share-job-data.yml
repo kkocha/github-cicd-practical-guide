@@ -6,7 +6,6 @@ jobs:
     steps:
       - id: generate
         run: echo "result=Hello" >> "${GITHUB_OUTPUT}"
-      - run:
     outputs:
       result: ${{ steps.generate.outputs.result }}
   after:
